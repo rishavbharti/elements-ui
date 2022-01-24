@@ -28,6 +28,7 @@ export const Avatar = (props) => {
 };
 
 Avatar.propTypes = {
+  src: PropTypes.string.isRequired,
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   variant: PropTypes.oneOf(['square', 'rounded']),
   width: PropTypes.string,

@@ -21,16 +21,16 @@ export const BasicCard = (args) => (
     <CardMedia height={200} src={CardImg} alt='card' />
     <CardContent>
       <div>
-        <h3>Our Changing Planet</h3>
-        <p>by Kurt Wagner</p>
+        <h3>Happiness Manifesto</h3>
+        <p>by Rishav Bharti</p>
       </div>
       <p>
-        Visit ten places on our planet that are undergoing the biggest changes
-        today.
+        Live in the present and make it so beautiful that it’s worth
+        remembering. - Arnold H. Glasow
       </p>
     </CardContent>
     <CardActions>
-      <Button variant='text' label='Visit' />
+      <Button variant='text' label='Know More' />
     </CardActions>
   </Card>
 );
@@ -39,18 +39,18 @@ export const CardWithTextOverMedia = (args) => (
   <Card {...args}>
     <CardMedia height={200} src={CardImg} alt='card'>
       <div>
-        <h3>Our Changing Planet</h3>
-        <p>by Kurt Wagner</p>
+        <h3>Happiness Manifesto</h3>
+        <p>by Rishav Bharti</p>
       </div>
     </CardMedia>
     <CardContent>
       <p>
-        Visit ten places on our planet that are undergoing the biggest changes
-        today.
+        Live in the present and make it so beautiful that it’s worth
+        remembering. - Arnold H. Glasow
       </p>
     </CardContent>
     <CardActions>
-      <Button variant='text' label='Visit' />
+      <Button variant='text' label='Know More' />
     </CardActions>
   </Card>
 );
@@ -59,23 +59,23 @@ export const CardWithHeader = (args) => (
   <Card {...args}>
     <CardHeader
       avatar={<Avatar src={AvatarImg} />}
-      TitleComp='h3'
-      title='Our Changing Planet'
-      subtitle='by Kurt Wagner'
+      TitleComp='h4'
+      title='Happiness Manifesto'
+      subtitle='by Rishav Bharti'
     />
     <CardMedia height={200} src={CardImg} alt='card' roundedCorners={false} />
     <CardContent>
       <div>
-        <h3>Our Changing Planet</h3>
-        <p>by Kurt Wagner</p>
+        <h3>Happiness Manifesto</h3>
+        <p>by Rishav Bharti</p>
       </div>
       <p>
-        Visit ten places on our planet that are undergoing the biggest changes
-        today.
+        Live in the present and make it so beautiful that it’s worth
+        remembering. - Arnold H. Glasow
       </p>
     </CardContent>
     <CardActions>
-      <Button variant='text' label='Visit' />
+      <Button variant='text' label='Know More' />
     </CardActions>
   </Card>
 );
@@ -84,12 +84,12 @@ export const TextOnlyCard = (args) => (
   <Card {...args}>
     <CardContent>
       <div>
-        <h3>Our Changing Planet</h3>
-        <p>by Kurt Wagner</p>
+        <h3>Happiness Manifesto</h3>
+        <p>by Rishav Bharti</p>
       </div>
       <p>
-        Visit ten places on our planet that are undergoing the biggest changes
-        today.
+        Live in the present and make it so beautiful that it’s worth
+        remembering. - Arnold H. Glasow
       </p>
     </CardContent>
     <CardActions>
@@ -104,15 +104,16 @@ export const HorizontalCard = (args) => (
     <div>
       <CardContent>
         <div>
-          <h4>Our Changing Planet</h4>
-          <p>by Kurt Wagner</p>
+          <h4>Happiness Manifesto</h4>
+          <p>by Rishav Bharti</p>
         </div>
         <p>
-          Visit places on our planet that are undergoing the biggest changes.
+          Live in the present and make it so beautiful that it’s worth
+          remembering. - Arnold H. Glasow
         </p>
       </CardContent>
       <CardActions>
-        <Button variant='text' label='Visit' />
+        <Button variant='text' label='Know More' />
       </CardActions>
     </div>
   </Card>

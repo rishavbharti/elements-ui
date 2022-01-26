@@ -18,11 +18,10 @@ const SIZES = {
 
 const StyledButton = styled.button`
   border-radius: 6px;
-  min-width: 100px;
   cursor: pointer;
   font-family: ${theme.primaryFont};
   font-size: ${(props) =>
-    props.size === SIZES.SMALL ? fontSize.xs : fontSize.sm}px;
+    props.size === SIZES.SMALL ? fontSize.sm : fontSize.base}px;
   font-weight: ${fontWeight.extrabold};
 
   outline: none;

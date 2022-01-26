@@ -6,7 +6,7 @@ import Image from '../Image';
 
 export const StyledCardMedia = styled.div`
   ${(props) =>
-    props.roundedCorners !== 'false' &&
+    props.roundedCorners &&
     css`
       border-top-left-radius: inherit;
       border-top-right-radius: inherit;
@@ -43,10 +43,10 @@ export const CardMedia = (props) => {
 };
 
 CardMedia.defaultProps = {
-  roundedCorners: 'true',
+  roundedCorners: true,
 };
 CardMedia.propTypes = {
   maxWidth: PropTypes.string,
-  roundedCorners: PropTypes.oneOf(['true', 'false']),
+  roundedCorners: PropTypes.bool,
   src: PropTypes.string,
 };

@@ -63,7 +63,7 @@ export const CardWithHeader = (args) => (
       title='Our Changing Planet'
       subtitle='by Kurt Wagner'
     />
-    <CardMedia height={200} src={CardImg} alt='card' roundedCorners='false' />
+    <CardMedia height={200} src={CardImg} alt='card' roundedCorners={false} />
     <CardContent>
       <div>
         <h3>Our Changing Planet</h3>

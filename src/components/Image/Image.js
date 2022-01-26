@@ -13,13 +13,14 @@ const StyledImage = styled.img`
 `;
 
 export const Image = (props) => {
-  const { src, ...rest } = props;
+  const { src, alt, ...rest } = props;
 
-  return <StyledImage src={src} alt='icon' {...rest} />;
+  return <StyledImage src={src} alt={alt} {...rest} />;
 };
 
 Image.propTypes = {
   src: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
   variant: PropTypes.oneOf(['default', 'rounded']),
   width: PropTypes.string,
   height: PropTypes.string,

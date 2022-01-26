@@ -99,7 +99,7 @@ export const TextOnlyCard = (args) => (
 );
 
 export const HorizontalCard = (args) => (
-  <Card maxWidth={450} direction='row' maxHeight={200} {...args}>
+  <Card maxWidth={450} direction='row' {...args}>
     <CardMedia src={CardImg} alt='card' maxWidth='180px' />
     <div>
       <CardContent>

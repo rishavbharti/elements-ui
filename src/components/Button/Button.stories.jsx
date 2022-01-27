@@ -3,7 +3,7 @@ import { Button } from './Button';
 import SaveIcon from '../../assets/save-solid.svg';
 
 export default {
-  title: 'Example/Button',
+  title: 'Components/Button',
   component: Button,
   argTypes: {
     label: String,

@@ -6,7 +6,7 @@ import { Avatar } from '../Avatar';
 import { Button } from '../Button';
 
 export default {
-  title: 'Example/Card',
+  title: 'Components/Card',
   component: Card,
   subcomponents: { CardHeader, CardMedia, CardContent, CardActions },
   argTypes: {

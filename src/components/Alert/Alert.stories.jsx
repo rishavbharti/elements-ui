@@ -2,7 +2,7 @@ import React from 'react';
 import { Alert } from './Alert';
 
 export default {
-  title: 'Example/Alert',
+  title: 'Components/Alert',
   component: Alert,
   argTypes: {
     variant: String,

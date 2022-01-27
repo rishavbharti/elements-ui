@@ -2,7 +2,7 @@ import React from 'react';
 import { TextField } from './TextField';
 
 export default {
-  title: 'Example/Input',
+  title: 'Components/Input',
   component: TextField,
   argTypes: {
     label: String,

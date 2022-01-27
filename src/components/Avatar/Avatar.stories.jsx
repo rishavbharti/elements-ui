@@ -3,7 +3,7 @@ import { Avatar } from './Avatar';
 import AvatarImg from '../../assets/avatar.png';
 
 export default {
-  title: 'Example/Avatar',
+  title: 'Components/Avatar',
   component: Avatar,
   argTypes: {
     src: String,

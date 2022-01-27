@@ -4,7 +4,7 @@ import EnvelopeIcon from '../../assets/envelope.svg';
 import AvatarImg from '../../assets/avatar.png';
 
 export default {
-  title: 'Example/Badge',
+  title: 'Components/Badge',
   component: Badge,
   argTypes: {
     variant: String,

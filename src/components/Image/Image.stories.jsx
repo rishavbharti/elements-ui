@@ -3,7 +3,7 @@ import { Image } from './Image';
 import TreeImg from '../../assets/tree-image.jpg';
 
 export default {
-  title: 'Example/Image',
+  title: 'Components/Image',
   component: Image,
   argTypes: {
     src: String,

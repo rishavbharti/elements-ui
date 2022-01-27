@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const StyledCardActions = styled.div`
+const StyledCardActions = styled.div`
   padding: 0.4rem;
 
   button {

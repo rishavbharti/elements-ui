@@ -3,7 +3,7 @@ import { Global } from '@emotion/react';
 import PropTypes from 'prop-types';
 import { bodyStyles } from '../../shared';
 
-export const StyledCard = styled.div`
+const StyledCard = styled.div`
   display: flex;
   flex-direction: ${(props) => props.direction};
   max-width: ${(props) => props.maxWidth}px;

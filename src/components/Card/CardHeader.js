@@ -1,12 +1,6 @@
 import styled from '@emotion/styled';
 import PropTypes from 'prop-types';
 
-export const StyledCard = styled.div`
-  max-width: ${(props) => props.maxWidth}px;
-  border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-`;
-
 const StyledCardHeader = styled.div`
   padding: 1rem 1rem;
   display: flex;

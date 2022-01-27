@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const StyledCardContent = styled.div`
+const StyledCardContent = styled.div`
   display: flex;
   flex-direction: column;
   gap: 15px;

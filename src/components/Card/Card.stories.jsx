@@ -2,8 +2,8 @@ import React from 'react';
 import { Card, CardHeader, CardMedia, CardContent, CardActions } from './index';
 import CardImg from '../../assets/card-image.jpg';
 import AvatarImg from '../../assets/avatar.png';
-import Avatar from '../Avatar';
-import Button from '../Button';
+import { Avatar } from '../Avatar';
+import { Button } from '../Button';
 
 export default {
   title: 'Example/Card',

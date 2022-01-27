@@ -2,9 +2,9 @@ import styled from '@emotion/styled';
 import { css } from '@emotion/react';
 import PropTypes from 'prop-types';
 import { defaultTheme as theme } from '../../shared';
-import Image from '../Image';
+import { Image } from '../Image';
 
-export const StyledCardMedia = styled.div`
+const StyledCardMedia = styled.div`
   ${(props) =>
     props.roundedCorners &&
     css`

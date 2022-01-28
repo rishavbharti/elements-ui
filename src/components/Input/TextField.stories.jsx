@@ -11,6 +11,9 @@ export default {
     error: Boolean,
     width: Number,
   },
+  parameters: {
+    layout: 'centered',
+  },
 };
 
 const Template = (args) => <TextField {...args} />;

@@ -12,6 +12,9 @@ export default {
     width: String,
     height: String,
   },
+  parameters: {
+    layout: 'centered',
+  },
 };
 
 const Template = (args) => <Avatar {...args} />;

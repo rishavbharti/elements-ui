@@ -9,6 +9,9 @@ export default {
     severity: String,
     text: String,
   },
+  parameters: {
+    layout: 'centered',
+  },
 };
 
 const Template = (args) => <Alert {...args} />;

@@ -11,6 +11,9 @@ export default {
     width: String,
     height: String,
   },
+  parameters: {
+    layout: 'centered',
+  },
 };
 
 const Template = (args) => <Image {...args} />;

@@ -13,6 +13,9 @@ export default {
     badgeContent: String,
     type: String,
   },
+  parameters: {
+    layout: 'centered',
+  },
 };
 
 const Template = (args) => <Badge {...args} />;

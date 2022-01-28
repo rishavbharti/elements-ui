@@ -12,6 +12,9 @@ export default {
     href: String,
     icon: String,
   },
+  parameters: {
+    layout: 'centered',
+  },
 };
 
 const Template = (args) => <Button {...args} />;

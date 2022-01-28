@@ -14,6 +14,9 @@ export default {
     maxHeight: String,
     direction: String,
   },
+  parameters: {
+    layout: 'centered',
+  },
 };
 
 export const BasicCard = (args) => (

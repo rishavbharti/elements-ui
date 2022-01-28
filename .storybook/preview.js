@@ -11,4 +11,5 @@ export const parameters = {
   docs: {
     theme: theme,
   },
+  layout: 'centered',
 };

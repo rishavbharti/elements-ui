@@ -1,8 +1,3 @@
-export const fontFamily = {
-  primary: '"Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif',
-  code: '"SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace',
-};
-
 export const fontWeight = {
   regular: '400',
   bold: '700',
@@ -21,15 +16,4 @@ export const fontSize = {
   '3xl': '40',
   '4xl': '48',
   '5xl': '90',
-};
-
-export const typeScale = {
-  header1: '1.8rem',
-  header2: '1.6rem',
-  header3: '1.4rem',
-  header4: '1.2rem',
-  header5: '1.1rem',
-  paragraph: '1rem',
-  helperText: '0.8rem',
-  copyrightText: '0.7rem',
 };

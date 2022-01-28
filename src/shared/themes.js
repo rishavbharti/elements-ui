@@ -1,5 +1,4 @@
 import { blue, yellow, red, green, neutral } from './colors';
-import { fontFamily } from './typography';
 
 export const defaultTheme = {
   primary: blue[300],
@@ -11,7 +10,6 @@ export const defaultTheme = {
   textOnPrimary: neutral[100],
   text: neutral[600],
   textInverted: neutral[100],
-  primaryFont: fontFamily.primary,
   disabled: neutral[400],
   textOnDisabled: neutral[300],
   textFieldBackground: neutral[200],

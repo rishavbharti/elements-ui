@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elements UI</title>
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+  <link href="/dist/output.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a529d0a3b2.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-bodyBg">
+  <header class="flex items-center px-10 md:px-24 py-5">
+    <div>
+      <img src="../assets/elements.png" width="180" height="150" alt="Elements UI" />
+    </div>
+    <nav class="flex gap-5 ml-auto items-center">
+      <a href="https://61f3e693fdae5e003abb3728-vvcezridij.chromatic.com/" target="_blank">Docs</a>
+      <a href="https://www.npmjs.com/package/@rishavbharti/elements-ui" target="_blank" class="text-2xl"><i
+          class="fab fa-npm"></i></a>
+    </nav>
+  </header>
+  <main>
+    <div class="grid place-items-center mx-auto py-24 md:py-32 md:max-w-4xl">
+      <div class="text-center flex flex-col items-center gap-10 px-8 md:px-0">
+        <h1 class="text-5xl md:text-6xl font-extrabold text-slate-800">
+          Build beautiful React apps<br />with ease and speed
+        </h1>
+        <p class="text-xl md:text-2xl md:max-w-xl text-gray-700">
+          Elements UI is a simple, modular and lightweight component library
+          that gives you the building blocks to build React applications.
+        </p>
+        <div class="flex gap-5 text-lg">
+          <a href="#getting-started">
+            <button class="bg-primary py-2 md:py-4 px-3 md:px-10 text-white rounded-lg">
+              Get Started <i class="fas fa-long-arrow-alt-down ml-3"></i>
+            </button>
+          </a>
+          <a href="https://61f3e693fdae5e003abb3728-vvcezridij.chromatic.com/" target="_blank"><button
+              class="bg-slate-300 py-2 md:py-4 px-3 md:px-10 text-zinc-800 rounded-lg">
+              Components
+            </button></a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section class="bg-white px-10 md:px-60 py-20 flex flex-col gap-10" id="getting-started">
+    <div class="leading-loose">
+      <h3 class="text-2xl font-semibold mb-5">Installation</h3>
+      <p class="font-medium">Elements UI components use emotion as their style engine.</p>
+      <p>
+        To install Elements UI in a React project, run either of the following
+        command depending on the package manager used in the project:
+      </p>
+      <div class="flex flex-col gap-3 my-5">
+        <code class="bg-black text-white p-3 rounded-md">npm i -D @rishavbharti/elements-ui</code>
+        <code class="bg-black text-white p-3 rounded-md">yarn add --dev @rishavbharti/elements-ui</code>
+      </div>
+    </div>
+
+    <div>
+      <h3 class="text-2xl font-semibold mb-5">Usage</h3>
+      <p>
+        Here's a quick example to get you started, it's literally all you
+        need:
+      </p>
+      <div class="flex flex-col gap-5 my-5">
+        <code class="bg-black text-white p-3 rounded-md">
+            <p>import React from 'react';</p>
+            <p>import ReactDOM from 'react-dom';</p>
+            <p>import Button from '@rishavbharti/elements-ui';</p>
+            <br />
+            function App() {
+            <p>return &lt;Button variant="contained" />;</p>
+            }
+          </code>
+
+        <code class="bg-black text-white p-3 rounded-md">
+            <p>import React from 'react';</p>
+            <p>import ReactDOM from 'react-dom';</p>
+            <p>import TextField from '@rishavbharti/elements-ui';</p>
+            <br />
+            function App() {
+            <p>return &lt;TextField helperText="Please enter your name" label="Name" required />;</p>
+            }
+          </code>
+      </div>
+      <p>To discover more components, <a href="https://61f3e693fdae5e003abb3728-vvcezridij.chromatic.com/"
+          class="text-primary underline">click
+          here</a></p>
+    </div>
+  </section>
+  <footer class="items-center py-10 flex flex-col gap-2">
+    <p class="text-slate-800">Developed by Rishav Bharti</p>
+    <div class="flex gap-3">
+      <a href="https://www.linkedin.com/in/rishavbharti/"><i class="fab fa-linkedin-in text-slate-500"></i></a>
+      <a href="https://twitter.com/rishavbharti_"><i class="fab fa-twitter text-slate-500"></i></a>
+    </div>
+  </footer>
+</body>
+
+</html>

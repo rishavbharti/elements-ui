@@ -1,4 +1,4 @@
-![Elements UI](/.assets/elements.png)
+![Elements UI](assets/elements.png)
 
 ### [Elements UI](https://elementsui.netlify.app/) is a simple, modular and lightweight component library that gives you the building blocks to build React applications.
 

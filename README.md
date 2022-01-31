@@ -42,4 +42,4 @@ function App() {
 }
 ```
 
-##### To discover more components, [click here](https://61f3e693fdae5e003abb3728-vvcezridij.chromatic.com/)
+##### To discover more components, [click here](https://stories--61f3e693fdae5e003abb3728.chromatic.com/)

@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/react';
 import PropTypes from 'prop-types';
@@ -19,7 +20,6 @@ const SIZES = {
 const StyledButton = styled.button`
   border-radius: 6px;
   cursor: pointer;
-  font-family: ${theme.primaryFont};
   font-size: ${(props) =>
     props.size === SIZES.SMALL ? fontSize.sm : fontSize.base}px;
   font-weight: ${fontWeight.extrabold};
